@@ -1,0 +1,3 @@
+include README.md
+recursive-include assets *
+recursive-include pgls *
