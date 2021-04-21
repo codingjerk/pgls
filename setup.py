@@ -8,7 +8,7 @@ setup(
     entry_points={
         "console_scripts": ["pgls=pgls:main"],
     },
-    version="1.0.0",
+    version="1.0.1",
     description="CLI utility to display postgres database information as a tree.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

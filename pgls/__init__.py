@@ -248,7 +248,7 @@ async def fetch_tables(base_dsn, database_name, sort, show_fields):
                    column_name as name,
                    data_type as type,
                    column_default as default,
-                   is_nullable as nullable
+                   cast(is_nullable as boolean) as nullable
 
               from information_schema.columns
 
